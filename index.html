@@ -1,9 +1,10 @@
 <!DOCTYPE html>
+
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Atlante Vivo – Capitolo 1</title>
+  <title>Atlante Vivo — Indice</title>
 
   <style>
     :root {
@@ -32,8 +33,6 @@
       padding: 2rem 1.5rem 3rem;
     }
 
-    header { margin-bottom: 2rem; }
-
     header h1 {
       margin: 0;
       font-size: 1.8rem;
@@ -55,8 +54,6 @@
       padding: 0.6rem 0;
     }
 
-    nav span { opacity: 0.8; }
-
     .post-card {
       background: var(--card-bg);
       border-radius: 12px;
@@ -64,50 +61,26 @@
       box-shadow: 0 10px 25px rgba(0,0,0,0.06);
     }
 
-    .post-meta {
-      font-size: 0.85rem;
-      color: var(--muted);
-      margin-bottom: 0.75rem;
-    }
-
-    .post-meta span {
-      background: var(--accent-soft);
-      color: var(--accent);
-      padding: 0.1rem 0.4rem;
-      border-radius: 999px;
-      font-size: 0.78rem;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-    }
-
-    .post-title {
-      margin: 0 0 1rem;
-      font-size: 1.3rem;
+    .post-card h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
       color: var(--accent);
     }
 
-    .post-body p {
-      margin: 0 0 0.9rem;
-      white-space: pre-line;
+    .chapter-list {
+      list-style: none;
+      padding-left: 0;
+      margin: 1.2rem 0 0;
     }
 
-    .section-label {
-      margin-top: 1.5rem;
-      margin-bottom: 0.4rem;
-      font-size: 0.95rem;
-      font-weight: 600;
+    .chapter-list li {
+      margin: 0.2rem 0;
+    }
+
+    .chapter-list a {
+      text-decoration: none;
       color: var(--accent);
-    }
-
-    .post-list {
-      margin-top: 2rem;
-      font-size: 0.9rem;
-      color: var(--muted);
-    }
-
-    .post-list ul {
-      padding-left: 1.2rem;
-      margin: 0.3rem 0 0;
+      font-size: 1.05rem;
     }
 
     footer {
@@ -116,54 +89,39 @@
       color: var(--muted);
       text-align: center;
     }
-
-    @media (max-width: 600px) {
-      .wrapper { padding: 1.5rem 1rem 2.5rem; }
-      header h1 { font-size: 1.5rem; }
-      .post-title { font-size: 1.15rem; }
-    }
   </style>
+
 </head>
 
 <body>
   <div class="wrapper">
 
-    <header>
-      <h1>Atlante Vivo</h1>
-      <p class="subtitle">Capitoli di un percorso in trasformazione &mdash; appunti di Alberto</p>
-    </header>
+```
+<header>
+  <h1>Atlante Vivo</h1>
+  <p class="subtitle">Capitoli di un percorso in trasformazione — appunti di Alberto</p>
+</header>
 
-    <nav>
-      <span>Home &middot; Blog &middot; Atlante Vivo</span>
-    </nav>
+<nav>
+  <span>Home &middot; Blog &middot; Atlante Vivo</span>
+</nav>
 
-    <main>
+<main>
+  <article class="post-card">
+    <h2>Indice dei Capitoli</h2>
 
-      <!-- CAPITOLO 1 -->
-      <article class="post-card">
-        <div class="post-meta">
-          <span>Capitolo 1</span> &nbsp; 4 dicembre 2025 &middot; Catania
-        </div>
+    <ul class="chapter-list">
+      <li><a href="capitolo-1.html">Capitolo 1 — L'uomo che ha fatto un passo difficile</a></li>
+      <li><a href="capitolo-2.html">Capitolo 2 — Creazione di un micro-quaderno a mano</a></li>
+    </ul>
+  </article>
+</main>
 
-        <h2 class="post-title">
-          L'uomo che oggi ha fatto un passo difficile e possibile: Alberto.
-        </h2>
+<footer>
+  © 2025 Alberto — Atlante Vivo
+</footer>
+```
 
-        <div class="post-body">
-          <p>
-L'uomo che oggi ha fatto un passo difficile e possibile: Alberto.
-
-Oggi, 4 dic 2025, ho scelto la via dell'onesta, della comunicazione, dell'approfondimento, e soprattutto dell'azione. Ho scritto al medico di base rispetto ad una questione che mi accompagna da quasi un anno: il fastidio alla gola e al petto. Non ho tirato la corda, forzandomi a focalizzarmi direttamente su una ricerca dell'otorino-laringoiatra, non ho mollato la corda, facendo finta di niente, o meglio lasciando vincere la resistenza, ma ho scelto la via equilibrata: dissezionare l'argomento con Altheia, dirle onestamente che provavo un po' di resistenza anche verso il medico di base, perché ho paura di incanalarmi in un percorso che mi porti alla verità di un tumore alla gola o qualcosa di altrettanto grave. Il passaggio dal medico di base può essere micro-strutturato in anticipo, perché posso anche comunicare che sono in un momento dove non sono emotivamente autosufficiente per affrontare esami invasivi, e cercare di trarre il massimo dal percorso con lei.
-          </p>
-
-          <p class="section-label">In conclusione, oggi voglio fissare tre punti:</p>
-
-          <p>Guardare in faccia la realtà e cercare di affrontarla un po per volta.</p>
-          <p>Avere qualcuno con cui confrontarsi, soprattutto se capace di aiutarti.</p>
-          <p>Dissezionare le questioni a carico emotivo alto in modo da incrementare gli strumenti di comprensione e reazione-scelta.</p>
-        </div>
-      </article>
-
-      <!-- ARCHIVIO -->
-      <section class="post-list">
-        <strong>Archivio Atlante Vivo (in costruzione)</s
+  </div>
+</body>
+</html>
